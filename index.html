@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Huellitas Pet Shop &amp; Spa — Cotización plataforma web</title>
+<meta name="description" content="Cotización: demo operativa + mensualidad todo incluido + mejoras por separado. Huellitas Pet Shop & Spa, sede Mazurén.">
+<style>
+:root{--navy:#20308f;--navy-dark:#16216a;--pink:#e78ba5;--pink-soft:#fbeef2;--ink:#2b2b3a;--muted:#6b6b7d;--bg:#ffffff;--card:#f6f6fa;--line:#e8e8f0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header.hero{background:linear-gradient(180deg,var(--pink-soft),#fff);text-align:center;padding:48px 20px 32px;border-bottom:4px solid var(--navy)}
+header.hero img{max-width:340px;width:80%;height:auto}
+.badge{display:inline-block;background:var(--navy);color:#fff;font-size:.85rem;padding:6px 16px;border-radius:999px;margin-top:16px}
+h1{color:var(--navy);font-size:1.9rem;margin:18px 0 6px}
+.sub{color:var(--muted);font-size:1.05rem}
+section{padding:34px 0;border-bottom:1px solid var(--line)}
+h2{color:var(--navy);font-size:1.35rem;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+h2 .n{background:var(--pink);color:#fff;width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:.95rem;flex:none}
+.price-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:8px}
+.price-card{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:20px;text-align:center}
+.price-card.hero-card{border-color:var(--navy);background:#fff;box-shadow:0 6px 24px rgba(32,48,143,.12)}
+.price-card .amount{font-size:1.9rem;font-weight:800;color:var(--navy)}
+.price-card .per{color:var(--muted);font-size:.9rem}
+.price-card p{font-size:.95rem;margin-top:8px}
+ul{list-style:none;margin-top:6px}
+ul li{padding:8px 0 8px 30px;position:relative;border-bottom:1px dashed var(--line)}
+ul li:last-child{border-bottom:none}
+ul li::before{content:"🐾";position:absolute;left:0;top:8px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+@media(max-width:700px){.two{grid-template-columns:1fr}h1{font-size:1.5rem}}
+.note{background:var(--pink-soft);border-left:5px solid var(--pink);padding:14px 18px;border-radius:0 12px 12px 0;margin-top:14px;font-size:.95rem}
+.cta{background:var(--navy);color:#fff;text-align:center;padding:44px 20px;border-radius:18px;margin:34px 0}
+.cta h2{color:#fff;justify-content:center}
+.cta p{opacity:.9;max-width:640px;margin:0 auto 8px}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:24px 0 40px}
+.small{font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="hero">
+  <img src="logo.jpg" alt="Huellitas Pet Shop y Spa">
+  <div><span class="badge">Cotización · 24 de noviembre de 2026 · Vigencia 15 días</span></div>
+  <h1>Plataforma web — sede Mazurén</h1>
+  <p class="sub">Demo operativa + mensualidad todo incluido + mejoras por separado</p>
+</header>
+<div class="wrap">
+
+<section>
+<h2><span class="n">1</span> Inversión</h2>
+<div class="price-grid">
+  <div class="price-card hero-card">
+    <div class="amount">$300.000</div>
+    <div class="per">COP · pago único</div>
+    <p><strong>Demo operativa</strong> con las 5 funcionalidades críticas. 50% anticipo para iniciar, 50% contra entrega.</p>
+  </div>
+  <div class="price-card hero-card">
+    <div class="amount">$100.000<span style="font-size:1rem">/mes</span></div>
+    <div class="per">COP mensuales</div>
+    <p><strong>Todo incluido:</strong> uso, mantenimiento, soporte, servidor, dominio y copias de seguridad.</p>
+  </div>
+  <div class="price-card">
+    <div class="amount">A convenir</div>
+    <div class="per">por módulo</div>
+    <p><strong>Mejoras futuras</strong> (inventario avanzado, finanzas, agenda, integraciones). Se cotizan por separado.</p>
+  </div>
+</div>
+</section>
+
+<section>
+<h2><span class="n">2</span> La demo operativa</h2>
+<ul>
+  <li><strong>Tutores y mascotas:</strong> búsqueda por nombre o documento y creación al vuelo.</li>
+  <li><strong>Ingresos y entregas</strong> con fotos y observaciones.</li>
+  <li><strong>Carrito:</strong> baño por plan, tamaño y manto + producto de mostrador, con precio sugerido automático.</li>
+  <li><strong>Cierre y cobro:</strong> forma de pago, estado pagado/pendiente, hora de salida.</li>
+  <li><strong>Cierre de caja del día</strong> por forma de pago, con control de efectivo y descuadres.</li>
+</ul>
+<div class="note">La demo opera con datos ficticios de prueba. Lo que se pida en la demo y esté fuera de esta lista entra como <strong>fase 2</strong> y se cotiza aparte — en la demo no se promete alcance adicional.</div>
+</section>
+
+<section>
+<h2><span class="n">3</span> Primera versión</h2>
+<div class="two">
+<div>
+<ul>
+  <li><strong>Operación diaria:</strong> tutores, mascotas, ingresos, carrito, cierre y cobro.</li>
+  <li><strong>Caja:</strong> cierre diario, efectivo, descuadres, entradas y salidas simples.</li>
+  <li><strong>Logístico básico:</strong> stock por SKU, entradas, salidas, ajustes y alertas de mínimo.</li>
+</ul>
+</div>
+<div>
+<ul>
+  <li><strong>Financiero básico:</strong> pendientes de cobro y aportes de aliados.</li>
+  <li><strong>Plataforma:</strong> sedes, roles y permisos, bitácora, anulaciones, copias de seguridad y precios editables.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<h2><span class="n">4</span> Infraestructura incluida</h2>
+<ul>
+  <li>Servidor privado virtual propio (EE. UU. Este, Virginia): 2 vCPU, 4 GB RAM, 40 GB NVMe, tráfico ilimitado, anti-DDoS.</li>
+  <li>Copia diaria automática + copia externa semanal. Endurecimiento inicial: llaves, firewall y parches.</li>
+  <li>Dominio del cliente conectado con SSL. Demo en subdominio provisional sin costo.</li>
+  <li>Monitoreo y soporte técnico: correctivos, seguridad y dudas de operación.</li>
+</ul>
+</section>
+
+<section>
+<h2><span class="n">5</span> Mejoras futuras</h2>
+<ul>
+  <li>Logístico avanzado: compras con factura, lotes PEPS/FEFO, vencimientos.</li>
+  <li>Finanzas: egresos, provisiones, estado de resultados, cierre mensual, créditos.</li>
+  <li>Comercial: referidos, clientes inactivos, concentrados, reportes para inversionistas.</li>
+  <li>Integraciones: agenda, WhatsApp, facturación electrónica, pagos, modo sin internet y segunda sede.</li>
+</ul>
+</section>
+
+<section>
+<h2><span class="n">6</span> Condiciones</h2>
+<ul>
+  <li>Sin permanencia: retiro con 30 días de aviso y exportación completa de sus datos.</li>
+  <li>Mensualidad con reajuste anual de IPC. Desarrollos nuevos siempre cotizados aparte.</li>
+</ul>
+</section>
+
+<div class="cta">
+  <h2>Siguiente paso</h2>
+  <p>Aprobación de esta cotización y anticipo del 50% para iniciar. Demo lista en ~2 semanas desde el anticipo y las fotos/colores de la sede.</p>
+</div>
+
+</div>
+<footer>
+  <p>Huellitas Pet Shop &amp; Spa · Calle 149 #54a-64, Bogotá · Cotización del 24-nov-2026, válida 15 días.</p>
+</footer>
+</body>
+</html>
